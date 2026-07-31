@@ -1,7 +1,27 @@
 aid: neuroharmonics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neuroharmonics.png
 name: Neuroharmonics
-description: Neuroharmonics is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  NeuroHarmonics is a London-based neurotechnology company and UCL spin-out developing
+  non-invasive brain-health hardware based on focused ultrasound neuromodulation. Its
+  wearable headset uses precisely focused sound waves to safely modulate deep brain
+  circuits without surgery, an MRI, or head shaving, aiming to turn expensive, invasive
+  neuromodulation into scalable, continuous at-home therapy for neurological and
+  psychiatric conditions. Founded in 2016 by Antonio Stanziola, Tim Den Boer, Bradley
+  Treeby and Michael Brown, the company is backed by Speedinvest, UCL Technology Fund,
+  Fusion Fund and Jumpspace Ventures. As an early-stage medical-device company it does
+  not currently publish a public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/neuroharmonics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Neurotechnology
+- Brain Health
+- Focused Ultrasound
+- Neuromodulation
+- Medical Devices
+- Healthcare
+- Wearables
 apis: []
+common:
+- type: Website
+  url: https://neuroharmonics.com/
+- type: Blog
+  url: https://neuroharmonics.com/blog/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
